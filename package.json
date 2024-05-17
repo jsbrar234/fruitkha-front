@@ -1,6 +1,6 @@
 {
   "name": "ecommerce",
-  "homepage": "https://jsbrar234.github.io/my-app",
+  "homepage": "https://jsbrar234.github.io/fruitKhaFront",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
     "formik": "^2.4.5",
+    "gh-pages": "^6.1.1",
     "jquery": "^3.7.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
@@ -26,6 +27,8 @@
     "yup": "^1.4.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
