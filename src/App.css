@@ -1,0 +1,357 @@
+.login_Form {
+  width: 100% !important;  
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.form-title h2{
+  text-align: center;
+}
+.submitBtn { 
+  text-align: center;
+}
+
+.submitBtn input{
+  color: white
+}
+.contact-form p span{
+  color: red;
+}
+.profile-input span{
+  color: red;
+  text-align: right;
+}
+
+
+.profile-input label{
+  font-size: 20px;
+}
+.empty_cart {
+  padding: 200px 0px;
+  text-align: center;
+}
+
+.signUpMsg{
+  text-align: center;
+  background-color: #E34848;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  margin: 10px !important;
+}
+
+.signUpMsg2{
+  text-align: center;
+  background-color: green;
+  border-radius: 5px;
+  padding: 10px;
+  color: white !important;
+  font-size: 16px;
+  margin: 10px !important;
+}
+
+
+
+.right_Side_Btns{
+  color: #fff;
+  font-weight: 700;
+  display: block;
+  padding: 15px;
+}
+span.cart-btn {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #F28123;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.cart-btn {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #F28123;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+}
+
+i.far.fa-window-close.prodDel {
+  cursor: pointer;
+}
+
+.addToCartMsg {
+  text-align: center;
+  background-color: green;
+  border-radius: 0px 0px 5px 5px;
+  padding: 10px;
+  color: white !important;
+  font-size: 16px;
+  margin-bottom: -50px !important;
+}
+
+.addAdressInput input{
+  width: 100%;
+
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+.address-btn{
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #F28123;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+}
+
+.addressName{
+  font-size: 17px;
+  font-weight: 500;
+}
+.showAddress {
+  padding: 20px 10px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  background-color: #f2fdff;
+}
+
+.addAddressBtn{
+  color: white;
+    background-color: #F28123;
+    border-color: #F28123;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.addAddressBtn:hover {
+  color: #F28123;
+  background-color: white;
+  border: 1px solid #F28123;
+}
+
+.innerShowAddress label ul li{
+  list-style: none;
+}
+
+.radio-btn{
+  accent-color: green;
+}
+
+
+.loader-container-getCard {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.coupon-section h3 {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 0px;
+}
+
+.fa-times-rectangle:before, .fa-window-close:before {
+  content: "\f410";
+}
+
+.loader-getCard {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #F28123;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.addAddressmain{
+  margin-bottom: 20px;
+}
+
+.addAddressmain h2 {
+  margin-bottom: 20px;
+}
+.addCardMain h2 {
+  margin-bottom: 20px;
+}
+
+
+
+/* Sidebar.css */
+
+.sidebar {
+  background-color: #25274D;
+  color: white;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-item {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: #45468E;
+}
+.adminSingleViewProductBtn button{
+  margin-right: 10px;
+}
+.adminProductListCard{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.adminProductListImg{
+
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+.contact-form a p{ 
+  padding: 10px 0px;
+}
+
+
+.mobile-menu {
+  position: relative;
+}
+
+.mobile-menu-toggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.mobile-accordion {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  top: 50px; /* Adjust based on your header height */
+  left: 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.single-testimonial-slider {
+  position: relative;
+  padding: 25px 0px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #F28123;
+}
+
+.card-date select {
+  padding: 10px 0px;
+  margin-bottom: 15px;
+
+  border-radius: none;
+}
+
+@media (max-width: 992px) { 
+  
+  nav.main-menu ul li a {
+    color: #F28123;
+  } 
+  nav.main-menu ul li  {
+    display: block;
+    text-align: left;
+  } 
+
+  .login-submit {
+    z-index: 10; /* Ensuring it is above other elements */
+}
+
+
+  nav.main-menu ul li:last-child a {
+    display: block;
+    text-align: left;
+}
+  nav.main-menu > ul li:last-child {
+    float: none;
+  }
+
+  .mobile-menu {
+    position: relative;
+    text-align: right;
+}
+
+}
+
+
+.profile-input input {
+  padding: 10px 0px 10px 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.profile-input label{
+  color: #F28123;
+}
+
+.shop-search{
+  text-align: center;
+}
+
+.shop-search input {
+  padding: 5px 0px 5px 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.shop-search label{
+  color: #F28123;
+  font-size: 20px;
+}
