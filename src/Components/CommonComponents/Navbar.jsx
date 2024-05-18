@@ -68,7 +68,8 @@ export const Navbar = (props) => {
 
                                 <div className="site-logo">
                                     <Link to='/'>
-                                        <img src="assets/img/logo.png" alt="Logo" />
+                                        <img src={`${process.env.PUBLIC_URL}/assets/img/logo.png`} alt="Logo" />
+
                                     </Link>
                                 </div>
 
