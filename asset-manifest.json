@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fruitkha-front/static/css/main.3bb11858.css",
+    "main.js": "/fruitkha-front/static/js/main.07b0e3fc.js",
+    "static/js/453.0b71bf06.chunk.js": "/fruitkha-front/static/js/453.0b71bf06.chunk.js",
+    "index.html": "/fruitkha-front/index.html",
+    "main.3bb11858.css.map": "/fruitkha-front/static/css/main.3bb11858.css.map",
+    "main.07b0e3fc.js.map": "/fruitkha-front/static/js/main.07b0e3fc.js.map",
+    "453.0b71bf06.chunk.js.map": "/fruitkha-front/static/js/453.0b71bf06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bb11858.css",
+    "static/js/main.07b0e3fc.js"
+  ]
+}
